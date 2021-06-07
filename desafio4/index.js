@@ -1,3 +1,5 @@
+// desafio complementario
+
 alert('Calculemos el IVA en tus productos seleccionados');
 
 function iva(precio) {
