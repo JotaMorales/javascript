@@ -26,6 +26,7 @@
  });
  $("#btn1").click(() => {
      $("#div1").toggle("slow");
+     $("h3, .repeticiones").fadeIn(1000);
  });
  $(".repeticiones").animate({
          left: '250px',
@@ -42,7 +43,8 @@
  $("#btn1").fadeOut("slow", function() {
 
      $("#btn1").fadeOut(1000);
-     $(".repeticiones").fadeOut(500);
+     $(".repeticiones").fadeOut(1000);
+     $("#btn1").fadeIn(1000);
 
 
  });
