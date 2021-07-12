@@ -274,3 +274,13 @@ for (const button of buttons) {
 //     div.appendChild(ul);
 
 // }
+
+const producto = {
+    id: objeto.querySelector(".btn-dark").dataset.id,
+    title: objeto.querySelector("h5").textContent,
+    precio: objeto.querySelector(".precio").textContent,
+    cantidad: 1
+}
+if (carrito.hasOwnProperty(producto.id)) {
+    producto.cantidad = carrito[producto.id].cantidad + 1
+}
