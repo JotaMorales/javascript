@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 20px 0px 10px 50px;
+}
+
+.logoPortada {
+    height: 120px;
+    width: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 20px 0px 10px 50px;
+}
+
+.poty--logo {
+    display: inline;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.navBar {
+    padding: 0px;
+    margin: 0px 50px 0px 80px;
+    position: sticky;
+}
+
+.modal-img {
+    width: fit-content;
+    height: 500px;
+}
+
+.carritoCompras {
+    width: 20px;
+    height: 20px;
+}
+
+.pasable {
+    width: 100%;
+    height: 700px;
+}
+
+.tituloBrand {
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+}
+
+.titulo-scroll {
+    text-decoration: none;
+    background-color: transparent;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.labelBrand {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.contenedor-img {
+    display: flex;
+    justify-content: center;
+}
+
+.img--galeria {
+    width: 300px;
+    height: 300px;
+}
+
+.estilosDeporte {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.estilosDeporte-img {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.futbol-label {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22pt;
+    letter-spacing: 4.5;
+}
+
+.portada {
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+
+.texto-about {
+    width: 80%;
+    height: 350px;
+    padding: 20px;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+
+.texto-titulo {
+    text-align: center;
+    padding: 40px;
+}
+
+.texto-relleno {
+    text-align: center;
+}
+
+.carroImg {
+    height: 400px;
+    object-fit: contain;
+}
+
+.contenedor-catalogo {
+    margin: 30px;
+}
+
+.titulo--cactalogo {
+    text-align: center;
+    padding: 40px;
+    text-transform: uppercase;
+}
+
+.texto--carrousel {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22pt;
+    font-weight: bold;
+    background-color: white;
+    opacity: .8;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.tarjeta {
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.contenedor-carritocliente {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    padding: 40px;
+    margin: 10px 30px 150px;
+}
+
+.talle-input {
+    width: 55px;
+}
+
+.imagenCarrito {
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card {
+    width: 180px;
+    height: 180px;
+    font-size: 12px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.contenedor-carrito-item {
+    width: 100px;
+    height: 120px;
+    font-size: 12px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.cart-title {
+    text-align: center;
+}
+
+.precio {
+    padding: 0px;
+    margin: 0;
+}
+
+#particles-js {
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.nombre {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 56px;
+    letter-spacing: 1.4px;
+}
+
+.nombreUno {
+    font-size: 30px;
+    letter-spacing: 1.4px;
+    font-weight: bold;
+}
+
+.entrada {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    float: inline-start;
+}
+
+.entradas {
+    display: block;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.efecto {
+    width: 100%;
+    height: 200px !important;
+}
